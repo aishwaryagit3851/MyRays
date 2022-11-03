@@ -1,38 +1,517 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  height:65px;
+ 
+}
+.nav-item{
+  padding:0% 15% 0% 15%;
+ 
+}
+.nav-right{
+  position: absolute;
+  right: 0%;
+  top: 0;
+}
+.nav-link{
+  font-size: 20px;
+}
+.image1{
+  height: 350px;
+  width: 90%;
+  border-radius: 30px;
+}
+.image2{
+  height: 350px;
+  width: 70%;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Intro{
+  background-color: rgb(255, 209, 185);
+  padding: 5% 7% 5% 7%;
+ 
+}
+.btn{
+  background-color:rgb(242, 106, 52);
+  border-radius: 25px;
+  color: white;
+ }
+.btn:hover{
+  background-color:rgb(242, 106, 52);
+  border: 2px solid black;
+  color: white;
+}
+.Home-2-1{
+  background-color: rgb(255, 209, 185);
+}
+.image3,.image4,.image5{
+  height: 400px;
+  width: 100%;
+}
+.Home-3-1,.Home-3-2,.Home-5-1,.AboutUs-2{
+  background-color: rgba(237, 97, 69, 0.911);
+}
+.Home-3-1,.Home-3-2{
+  border-radius: 20px;
+}
+.Home-item{
+background-color: white;
+}
+.image{
+  height:150px
+}
+.image6{
+  height: 400px;
+  margin: 100px 0px 0px 0px;
+}
+.image11,.image12,.image13,.image14{
+  height: 100px;
+  width:100px;
+}
+.Home-4-1{
+  width: 20%;
+ 
+}
+.Home-4-flex{
+  margin: 15px;
+  display: flex;
+ flex-direction: row;
+}
+.Home-4-flex{
+  padding: 7% 2% 7% 2%;
+}
+
+.image15{
+  border-radius: 400px;
+}
+.Home-5{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.red{
+  color:rgb(220, 87, 38);
+}
+.vision,.mission{
+  width: 20vw;
+  height: 20vw;
+}
+.image19,.image20{
+  width: 100%;
+  height: 100%;
+}
+.Store-item{
+  height: 500px;
+  width: 100%;
+}
+.ContactUs-1{
+  display: flex;
+  flex-direction: column;
+}
+.card,.form-control{
+ box-shadow: 3px 3px rgb(205, 197, 197);
+}
+.card-img{
+  height: 55px;
+  width: 55px;
+  
+}
+.faq{
+  text-align: left;
+}
+.faq-1{
+  margin: 3% 0% 6% 20%;
+}
+.signin-sidebar{
+ background-color: rgba(9, 9, 166, 0.884);
+ line-height: 2px;
+padding:10% 1% 10% 1%;
+
+}
+
+label{
+  text-align: right;
+}
+.signin,.forgotpassword,.resetpassword{
+  margin: 5% 3% 0% 3%;
+  box-shadow: 10px 10px 10px 10px rgb(94, 93, 93);
+  opacity:1;
+  transition: opacity 1s;
+}
+.splash{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+padding: 50vh 10vh 10vh 5vh;
+margin: 25px;
+font-family:'Libre Baskerville', serif;;
+}
+.link:hover{
+  color: peru;
+  transition: all 0.3s;
+}
+.sub-link{
+  background-color: blue;
+}
+.sub-link:hover{
+  background-color:white;
+}
+
+.container{
+  display:flex;
+ margin-left: 0px;
+ padding-left: 0px;
+ height: 100vh;
+ width: 100vw;
+
+}
+.navbar2{
+  background-color: rgb(189, 187, 187);
+}
+.option{
+  background-color: blue;
+}
+main{
+  width: 100%;
+ margin: 0px;
+
+}
+.sidebar2{
+  background:rgb(200, 97, 24);
+  color: #fff;
+  height: 100vh;
+
+  transition: all 0.5s; 
+}
+.sidebar-select{
+  background-color:rgb(200, 97, 24);
+  color:#fff;
+  border:none;
+}
+.link{
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+iframe{
+  width: 92vw;
+}
+.location{
+  margin-left: 15px;
+}
+
+
+.link_text{
+  font-size: 1.5rem;
+
+}
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+.nav-items-2{
+  margin: 0% 2% 0% 50%;
+}
+.dashboard{
+  padding:20px;
+  
+}
+.chart{
+  width: fit-content;
+  height: fit-content;
+}
+.Enquiry{
+  background-color: rgb(248, 237, 237);
+  margin: 30px;
+  border-radius: 10px;
+  height: 500px;
+  width: fit-content;
+}
+.ViewBook{
+  background-color: rgb(248, 237, 237);
+  padding: 0px;
+  margin: 10px;
+  border-radius: 10px;
+  height: 500px;
+  width: fit-content;
+}
+.addBook{
+  background-color: rgb(248, 237, 237);
+  margin: 10px 0px 20px 40px;
+  border-radius:10px;
+  padding: 5px;
+}
+
+.form-label{
+  font-size: 1.1rem;
+  padding: 0px 10px 0px 10px;
+}
+.addbook-input{
+  width: 25vw;
+  height: 5vh;
+}
+.form-label{
+  text-align: right;
+}
+.ViewBook{
+  background-color: rgb(248, 237, 237);
+  margin : 15px;
+  border-radius: 10px;
+  height: 500px;
+}
+.form-addbook{
+  border: 2px solid black;
+margin: 5px 30px 30px 30px ;
+  padding: 10px 0px 10px 0px;
+  border-radius: 20px;
+}
+.dash-item{
+  margin:3px 10px 10px 10px;
+  background-color: rgb(248, 237, 237);
+  border-radius: 20px;
+  box-shadow: 3px 3px grey;
+ width: 15vw;
+ height: 15vh;
+}
+.table-1{
+  margin: 20px;
+
+}
+.table-2{
+  margin: 40px;
+  width: 20vw;
+}
+.heading{
+  background-color: peachpuff;
+ 
+}
+.th-1{
+  padding: 10px 20px 10px 20px;
+  border-right: 1px solid black;
+}
+.th-2{
+  padding: 20px 30px 20px 30px;
+  border-right: 1px solid black;
+}
+td{
+  padding: 30px;
+}
+.fp-input{
+  height: 5vh;
+  width: 5vw;
+}
+@media screen and (min-width: 1200px) {
+  .Home-3-flex{margin: 15px;
+  display: flex;
+ flex-direction: row;
+}}
+
+
+@media screen and (max-width: 1200px) {
+  .Home-3-flex{margin: 15px;
+  display: flex;
+ flex-direction: column;
   }
 }
+@media screen and (max-width: 1200px) and (min-width: 730px) {
+  .Home-3-flex{
+    align-items: center;
+  }
+}
+@media screen and (max-width: 730px) {
+.Home-1,.AboutUs-2,.Footer,.Store,.View{
+  display: flex;
+  flex-direction: column;
+}
+.vision,.mission{
+  width: 70vw;
+  height: 40vh;
+}
+.vision,.mission{
+  padding: 10px 0px 10px 100px;
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+@media screen and (max-width: 1270px) {
+ .ContactUs{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ }
+}
+@media screen and (max-width: 600px) {
+  .signin,.forgotpassword,.resetpassword{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  
+ }
+
+
+.chart{
+  width: 60vw;
+  margin: 15px;
+  padding:10px;
+  background-color: rgb(248, 237, 237);
+  border-radius: 20px;
+  box-shadow: 3px 3px grey;
+}
+
+
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-icon,.icon{
+  font-size: 1.7rem;
+  display: inline-block;
+}
+
+.item-submenu.active{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(26, 66, 142);
+  margin-left: 45px;
+  margin-right: 10px;
+  color: orange;
+}
+.item-submenu span{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+  .item-submenu{
+    display: none;
+  }
+ 
+  .item-1:hover{
+    color: orange;
+  }
+.sidemenu-items .icon:hover,.topsection .main-icon:hover{
+  background-color: rgb(209, 120, 120);
+  color: orange;
+}
+.sub-arr:hover,.sidemenu.active h5:hover, .sidemenu-item-2 span i:hover,.item-1 span i:hover,.topsection span i:hover,.item-submenu span:hover{
+  color: orange;
+}
+.logout{
+background-color: white;
+  margin:10px;
+  padding: 10px 15px 10px 15px;
+  color: black;
+  border-radius: 5px;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  left: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+}
+.nav-2{
+  display: flex;
+  flex-direction: column;
+}
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+  .icon2{
+    font-size: 2rem;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+	header nav {
+		position: fixed;
+		top: 0;
+		right: 0;
+		height: 40%;
+		width: 50%;
+    background-color:rgb(215, 157, 115) ;
+    display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		transition: 1s;
+		transform: translateY(-100vh);
+	}
+
+
+	header .responsive_nav {
+		transform: none;
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}
+.nav-link p{
+  font-size: 25px;
+  color: grey;
+}
+.nav-link.active p{
+  color: black;
 }
