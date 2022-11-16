@@ -16,7 +16,7 @@ function Navbar() {
 
 	return (
 		<header>
-			<img src={image24}/>
+			<img src={image24} alt="not found"/>
 			<nav ref={navRef} >
 				<Link className={`nav-link ${location.pathname==="/"?"active":""}`} to="/"><p>HOME</p></Link>
 				<Link className={`nav-link ${location.pathname==="/about"?"active":""}`} to="/about"><p>ABOUT</p></Link>

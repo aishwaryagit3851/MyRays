@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navbar2 from './Navbar2';
-import Dashboard from './Dashboard';
+
 import {
     FaAddressBook,
 } from "react-icons/fa";

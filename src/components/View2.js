@@ -15,7 +15,7 @@ const View2 = () => {
                 </div>
                 <div className="d-flex View m-5 p-3">
                     <div className="col-md-6">
-                        <img src={image17} style={{ height: 550,width:450}} alt="Image not found"/>
+                        <img src={image17} style={{ height: 550,width:450}} alt="not found"/>
                     </div>
                     <div className="col-md-6 pt-5" style={{textAlign:"Left"}}>
                         

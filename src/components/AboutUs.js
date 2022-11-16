@@ -13,7 +13,7 @@ const AboutUs = () => {
         <Intro/>
             <div className="Home-1 d-flex p-5">
                 <div className="col-md-6 pt-5">
-                    <img src={image2} className="image2" alt="Image not found"/>
+                    <img src={image2} className="image2" alt="not found"/>
                 </div>
                 <div className="col-md-6 ">
                     <h1 className="pt-2 red">MY RAYS</h1>
@@ -28,7 +28,7 @@ const AboutUs = () => {
                 <h2 className="py-5">OUR VISION</h2>
                 <div className="d-flex AboutUs-2 p-4">
                     <div className="col-md-3 vision">
-                        <img src={image19} className="image19" alt="Image not found"/>
+                        <img src={image19} className="image19" alt="not found"/>
                     </div>
                     <div className="col-md-9">
                         <h3 className="pt-5" style={{ color: 'white', lineHeight: 2.3 }}>"TO TRANSFORM ELIGIBLE POTENTIALS INTO WORLD-CLASS WRITERS TO SUSTAIN THE UNIVERSE."</h3>
@@ -42,7 +42,7 @@ const AboutUs = () => {
                         <h3 className="pt-5" style={{ color: 'white', lineHeight: 2.3 }}>“ TOBOOK WRITING AND PUBLICATION CAMPAIGN  ”</h3>
                     </div>
                     <div className="col-md-3 mission">
-                        <img src={image20} className="image20" alt="Image not found"/>
+                        <img src={image20} className="image20" alt="not found"/>
                     </div>
 
                 </div>

@@ -1,9 +1,8 @@
 
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Footer from './components/Footer';
+import Navbar2 from './components/Navbar2';
 import Home from './components/Home';
-import Intro from './components/Intro';
 import Store from './components/Store';
 import View1 from './components/View1';
 import View2 from './components/View2';
@@ -19,7 +18,7 @@ import AddBook from './components/AddBook.js';
 import ViewBook from './components/ViewBook';
 import Dashboard from './components/Dashboard';
 import Enquiry from './components/Enquiry';
-import SideMenu from './components/SideMenu';
+
 
 
 
@@ -50,6 +49,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/navbar2" element={<Navbar2 />} />
           <Route exact path="/about" element={<AboutUs />} />
           <Route exact path="/store" element={<Store />} />
           <Route exact path="/contactus" element={<ContactUs />} />

@@ -19,21 +19,21 @@ const Store = () => {
                 <div className="d-flex  Store justify-content-center p-4">
 
                     <div>
-                        <img src={image16} className="Store-item p-4" alt="Image not found"/>
+                        <img src={image16} className="Store-item p-4" alt="not found"/>
                         <h5>Encounters of a Sapiophile</h5>
                         <h5>Author: xyz</h5>
                         <h5>Rs. 199/-</h5>
                        <Link to="/view1"><button className="btn px-5">View</button></Link>
                     </div>
                     <div>
-                        <img src={image17} className="Store-item p-4" alt="Image not found"/>
+                        <img src={image17} className="Store-item p-4" alt="not found"/>
                         <h5>Encounters of a Sapiophile</h5>
                         <h5>Author: xyz</h5>
                         <h5>Rs. 199/-</h5>
                         <Link to="/view2"><button className="btn px-5">View</button></Link>
                     </div>
                     <div>
-                        <img src={image18} className="Store-item p-4" alt="Image not found"/>
+                        <img src={image18} className="Store-item p-4" alt="not found"/>
                         <h5>Encounters of a Sapiophile</h5>
                         <h5>Author: xyz</h5>
                         <h5>Rs. 199/-</h5>
@@ -42,21 +42,21 @@ const Store = () => {
                 </div>
                 <div className="d-flex Store justify-content-center p-4">
                     <div>
-                        <img src={image16} className="Store-item p-4" alt="Image not found"/>
+                        <img src={image16} className="Store-item p-4" alt="not found"/>
                         <h5>Encounters of a Sapiophile</h5>
                         <h5>Author: xyz</h5>
                         <h5>Rs. 199/-</h5>
                         <Link to="/view1"><button className="btn px-5">View</button></Link>
                     </div>
                     <div>
-                        <img src={image17} className="Store-item p-4" alt="Image not found"/>
+                        <img src={image17} className="Store-item p-4" alt="not found"/>
                         <h5>Encounters of a Sapiophile</h5>
                         <h5>Author: xyz</h5>
                         <h5>Rs. 199/-</h5>
                         <Link to="/view2"><button className="btn px-5">View</button></Link>
                     </div>
                     <div>
-                        <img src={image18} className="Store-item p-4" alt="Image not found"/>
+                        <img src={image18} className="Store-item p-4" alt="not found"/>
                         <h5>Encounters of a Sapiophile</h5>
                         <h5>Author: xyz</h5>
                         <h5>Rs. 199/-</h5>
@@ -65,21 +65,21 @@ const Store = () => {
                 </div>
                 <div className="d-flex Store justify-content-center p-4">
                     <div>
-                        <img src={image16} className="Store-item p-4" alt="Image not found"/>
+                        <img src={image16} className="Store-item p-4" alt="not found"/>
                         <h5>Encounters of a Sapiophile</h5>
                         <h5>Author: xyz</h5>
                         <h5>Rs. 199/-</h5>
                         <Link to="/view1"><button className="btn px-5">View</button></Link>
                     </div>
                     <div>
-                        <img src={image17} className="Store-item p-4" alt="Image not found"/>
+                        <img src={image17} className="Store-item p-4" alt="not found"/>
                         <h5>Encounters of a Sapiophile</h5>
                         <h5>Author: xyz</h5>
                         <h5>Rs. 199/-</h5>
                         <Link to="/view2"><button className="btn px-5">View</button></Link>
                     </div>
                     <div>
-                        <img src={image18} className="Store-item p-4" alt="Image not found"/>
+                        <img src={image18} className="Store-item p-4" alt="not found"/>
                         <h5>Encounters of a Sapiophile</h5>
                         <h5>Author: xyz</h5>
                         <h5>Rs. 199/-</h5>

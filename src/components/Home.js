@@ -17,7 +17,6 @@ import image12 from 'C:/Users/Aishwarya/myraysapp/src/images/image12.jpg';
 import image13 from 'C:/Users/Aishwarya/myraysapp/src/images/image13.jpg';
 import image14 from 'C:/Users/Aishwarya/myraysapp/src/images/image14.jpg';
 import image15 from 'C:/Users/Aishwarya/myraysapp/src/images/image15.jpg';
-import AboutUs from './AboutUs';
 
 const Home = () => {
     return (
@@ -26,7 +25,7 @@ const Home = () => {
         <Intro/>
             <div className="Home-1 d-flex p-5">
                 <div className="col-md-6 pt-5">
-                    <img src={image2} className="image2" alt="Image not found" />
+                    <img src={image2} className="image2" alt="not found" />
                 </div>
                 <div className="col-md-6 ">
                     <h1 className="pt-2 red">MY RAYS</h1>
@@ -44,17 +43,17 @@ const Home = () => {
                         <h3>Browse the widest range of our Products from Featured to Bestsellers</h3>
                         <div className="d-flex justify-content-center" style={{ color: 'white' }}>
                             <div>
-                                <img src={image3} className="image3 col-md-4 p-4" />
+                                <img src={image3} className="image3 col-md-4 p-4" alt="not found"/>
                                 <h4>SUMMER HOLIDAYS</h4>
                                 <h5>By Yogesh Shinde</h5>
                             </div>
                             <div>
-                                <img src={image4} className="image4 col-md-4 p-4" />
+                                <img src={image4} className="image4 col-md-4 p-4" alt="not found"/>
                                 <h4>SUMMER HOLIDAYS</h4>
                                 <h5>By Yogesh Shinde</h5>
                             </div>
                             <div>
-                                <img src={image5} className="image5 col-md-4 p-4" />
+                                <img src={image5} className="image5 col-md-4 p-4" alt="not found"/>
                                 <h4>SUMMER HOLIDAYS</h4>
                                 <h5>By Yogesh Shinde</h5>
                             </div>
@@ -71,27 +70,27 @@ const Home = () => {
                 < div className="Home-3-flex">
                     <div className="Home-3-1 col-md-4 p-3">
                         <div className="Home-item mb-5 pb-1">
-                            <img src={image7} className="image" alt="Image not found"/>
+                            <img src={image7} className="image" alt="not found"/>
                             <h5>1.REGISTRATION AND CONSULTATION</h5>
                             <p>Register with us by filling a simple form and our book publishing consultant will call you to discuss about your book .</p>
                         </div>
                         <div className="Home-item pb-3">
-                            <img src={image8} className="image" alt="Image not found"/>
+                            <img src={image8} className="image" alt="not found"/>
                             <h5>2.DESIGN AND FORMATTING</h5>
                             <p>
                                 After finalising the proposal, you need to submit your manuscript and other design inputs for book cover designing and publication process.</p>
                         </div>
                     </div>
-                    <div className="col-md-4"><img src={image6} className="image6" alt="Image not found"/></div>
+                    <div className="col-md-4"><img src={image6} className="image6" alt="not found"/></div>
 
                     <div className="Home-3-2 col-md-4 p-3">
                         <div className="Home-item pb-1 mb-5 pt-2">
-                            <img src={image9} className="image" alt="Image not found"/>
+                            <img src={image9} className="image" alt="not found"/>
                             <h5>3.FINAL MANUSCRIPT</h5>
                             <p>after design & formating manuscript,final manuscript will be ready with 10% similarity index.</p>
                         </div>
                         <div className="Home-item pb-2 pt-3">
-                            <img src={image10} className="image" alt="Image not found"/>
+                            <img src={image10} className="image" alt="not found"/>
                             <h5>4.BOOK PUBLISHED</h5>
                             <p>
                                 After finalising final manuscript, we submit manuscript proposal for book isbn no. as we received isbn no, book will be published on our book store.</p>
@@ -104,23 +103,23 @@ const Home = () => {
                 <h2 className="red">WHY MY RAYS BOOK PUBLISHING</h2>
                 <div className="Home-4-flex">
                     <div className="Home-4-1">
-                        <img src={image11} className="image11 sm-img px-" alt="Image not found"></img>
+                        <img src={image11} className="image11 sm-img px-" alt="not found"></img>
                         <h6 className="child">10% SIMILARITY INDEX</h6>
                     </div>
                     <div className="Home-4-1">
-                        <img src={image12} className="image12 sm-img px-3" alt="Image not found"></img>
+                        <img src={image12} className="image12 sm-img px-3" alt="not found"></img>
                         <h6 className="child">TRAINING TO AUTHORS AND EDITORS</h6>
                     </div>
                     <div className="Home-4-1">
-                        <img src={image13} className="image13 sm-img px-3" alt="Image not found"></img>
+                        <img src={image13} className="image13 sm-img px-3" alt="not found"></img>
                         <h6 className="child">COST EFFECTIVENESS</h6>
                     </div>
                     <div className="Home-4-1">
-                        <img src={image13} className="image13 sm-img px-3" alt="Image not found"></img>
+                        <img src={image13} className="image13 sm-img px-3" alt="not found"></img>
                         <h6 className="child">BOOK AVAILABLE WORLDWIDE</h6>
                     </div>
                     <div className="Home-4-1">
-                        <img src={image14} className="image14 sm-img px-3" alt="Image not found"></img>
+                        <img src={image14} className="image14 sm-img px-3" alt="not found"></img>
                         <h6 className="child">STRICT PEER REVIEW POLICY</h6></div>
 
                 </div>
@@ -128,7 +127,7 @@ const Home = () => {
             <div className="Home-5 my-5">
                 <h2 className="red pb-4">AUTHORS TESTIMONIAL</h2>
                 <div className="Home-5-1 py-4">
-                    <div><img src={image15} className="image15 pb-2" alt="Image not found"/></div>
+                    <div><img src={image15} className="image15 pb-2" alt="not found"/></div>
                     <div>
                         <h3>MR.SUNIL</h3>
                         <h4>PROFESSOR</h4>

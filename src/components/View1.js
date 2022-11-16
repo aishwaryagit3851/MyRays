@@ -15,7 +15,7 @@ const View = () => {
                 </div>
                 <div className="d-flex View m-5 p-3">
                     <div className="col-md-6 book-image">
-                        <img src={image16} className="books" alt="Image not found"/>
+                        <img src={image16} className="books" alt="not found"/>
                     </div>
                     <div className="col-md-6 pt-5" style={{textAlign:"Left"}}>
                         

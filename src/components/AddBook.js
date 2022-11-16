@@ -53,11 +53,6 @@ const AddBook = () => {
     <textarea type="text" id="exampleInputEmail1" className="addbook-input"/>
 
   </div>
-  <div className="mb-3">
-    <label htmlFor="exampleInputEmail1" className="form-label">Book Cover Image:</label>
-    <input type="image"  id="exampleInputEmail1" className="addbook-input"/>
-
-  </div>
   <button type="submit" className="btn btn-primary">Submit</button>
 </form>
     </div>

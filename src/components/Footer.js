@@ -32,10 +32,10 @@ const Footer = () => {
                         </h6>
                         <h5 className="red">Contact with Us</h5>
                         <div className="d-flex" style={{justifyContent:"center"}}>
-                            <img src={image25}/>
-                            <img src={image26}/>
-                            <img src={image27}/>
-                            <img src={image28}/>
+                            <img src={image25} alt="not found"/>
+                            <img src={image26} alt="not found"/>
+                            <img src={image27} alt="not found"/>
+                            <img src={image28} alt="not found"/>
                         </div>
                     </div>
                 </div>

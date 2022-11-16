@@ -16,7 +16,7 @@ const ContactUs = () => {
                     <div className="p-2">
                         <div className="card" style={{ width: 450 }}>
                             <div className="card-body">
-                                <img src={image21} className="card-img pb-1" />
+                                <img src={image21} className="card-img pb-1" alt="not found"/>
                                 <h5 className="card-title">Working Hours</h5>
                                 <p className="card-text">We appreciate you respecting our available time.</p>
                                 <p className="card-text">09:30 am - 05:30 pm</p>
@@ -28,7 +28,7 @@ const ContactUs = () => {
                     <div className="p-2">
                         <div className="card" style={{ width: 450 }}>
                             <div className="card-body">
-                                <img src={image22} className="card-img pb-1" />
+                                <img src={image22} className="card-img pb-1" alt="not found"/>
                                 <h5 className="card-title">Call Us</h5>
                                 <p className="card-text">Just pick up the phone to chat with our customer support team.</p>
                                 <p className="card-text">+91-11-40546380</p>
@@ -39,7 +39,7 @@ const ContactUs = () => {
                     <div className="p-2">
                         <div className="card" style={{ width: 450 }}>
                             <div className="card-body">
-                                <img src={image23} className="card-img pb-1" />
+                                <img src={image23} className="card-img pb-1" alt="not found"/>
                                 <h5 className="card-title">Mail Us</h5>
                                 <p className="card-text">Drop us a message.We’ll be glad to answer it.</p>
                                 <p className="card-text">crm@arihantbooks.com</p>
@@ -74,7 +74,7 @@ const ContactUs = () => {
                 </div>
             </div>
             <div className="location">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3780.4056362053634!2d73.76406381984417!3d18.645784870617145!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7981a7c5d2397867!2sESparse%20Matrix%20Solutions%20Private%20Limited!5e0!3m2!1sen!2sin!4v1667027923703!5m2!1sen!2sin"  height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3780.4056362053634!2d73.76406381984417!3d18.645784870617145!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7981a7c5d2397867!2sESparse%20Matrix%20Solutions%20Private%20Limited!5e0!3m2!1sen!2sin!4v1667027923703!5m2!1sen!2sin"  height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="chart"></iframe>
             </div>
             <Footer />
         </>
