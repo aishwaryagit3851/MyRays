@@ -14,8 +14,8 @@ const View = () => {
                     <h2 className="red mt-5">BOOK STORE</h2>
                 </div>
                 <div className="d-flex View m-5 p-3">
-                    <div className="col-md-6">
-                        <img src={image16} style={{ height: 550,width:450}} alt="Image not found"/>
+                    <div className="col-md-6 book-image">
+                        <img src={image16} className="books" alt="Image not found"/>
                     </div>
                     <div className="col-md-6 pt-5" style={{textAlign:"Left"}}>
                         

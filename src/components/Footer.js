@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <>
             <div className="Footer d-flex mx-3 my-5 pt-3">
-                <div className="col-md-4"><img src={image24}/><h5>an experienced and Pune based book publishing company,  with an intention to make the overall self-publishing process as easier as possible for the authors.</h5></div>
+                <div className="col-md-4"><img src={image24} alt="imagenot found"/><h5>an experienced and Pune based book publishing company,  with an intention to make the overall self-publishing process as easier as possible for the authors.</h5></div>
                 <div className="col-md-4">
                     <div>
                        <h5 className="red">IMPORTANT LINKS</h5>

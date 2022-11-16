@@ -9,7 +9,7 @@ const Dashboard = () => {
       label:"TOTAL BOOK PUBLISHED",
       data:UserData.map((data)=>data.inr),
       backgroundColor:"skyblue",
-      barThickness:50
+      barThickness:25
       }]
    }); 
    const [options,setOptions]=useState({
@@ -27,10 +27,10 @@ const Dashboard = () => {
   <>
 
   <div className="dashboard">
-   <div className="d-flex">
-    <div className="dash-item p-3"><h6 style={{lineHeight:2}}>TODAY'S BOOK PUBLISHED 10</h6></div>
-    <div className="dash-item p-3"><h6 style={{lineHeight:2}}>TODAY'S ENQUIRY GENERATED 10</h6></div>
-    <div className="dash-item p-3"><h6 style={{lineHeight:2}}>NO OF BOOKS ADDED 10</h6></div>
+   <div className="d-flex dashboard-1">
+    <div className="dash-item col-md-4 p-3"><h6 className="dashboard-h6" style={{lineHeight:2}}>TODAY'S BOOK PUBLISHED 10</h6></div>
+    <div className="dash-item col-md-4 p-3"><h6 className="dashboard-h6" style={{lineHeight:2}}>TODAY'S ENQUIRY GENERATED 10</h6></div>
+    <div className="dash-item col-md-4 p-3"><h6 className="dashboard-h6" style={{lineHeight:2}}>NO OF BOOKS ADDED 10</h6></div>
    </div>
    <div className="chart">
    <BarChart chartData={userData} options={options}/>

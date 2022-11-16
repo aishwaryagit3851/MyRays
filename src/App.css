@@ -225,16 +225,13 @@ iframe{
   padding:20px;
   
 }
-.chart{
-  width: fit-content;
-  height: fit-content;
-}
+
 .Enquiry{
   background-color: rgb(248, 237, 237);
-  margin: 30px;
+  margin: 10px;
   border-radius: 10px;
   height: 500px;
-  width: fit-content;
+  overflow: auto;
 }
 .ViewBook{
   background-color: rgb(248, 237, 237);
@@ -242,13 +239,15 @@ iframe{
   margin: 10px;
   border-radius: 10px;
   height: 500px;
-  width: fit-content;
+overflow: auto;
+  
 }
 .addBook{
   background-color: rgb(248, 237, 237);
   margin: 10px 0px 20px 40px;
   border-radius:10px;
   padding: 5px;
+ 
 }
 
 .form-label{
@@ -262,12 +261,7 @@ iframe{
 .form-label{
   text-align: right;
 }
-.ViewBook{
-  background-color: rgb(248, 237, 237);
-  margin : 15px;
-  border-radius: 10px;
-  height: 500px;
-}
+
 .form-addbook{
   border: 2px solid black;
 margin: 5px 30px 30px 30px ;
@@ -309,6 +303,20 @@ td{
   height: 5vh;
   width: 5vw;
 }
+.book-image{
+  width: 40%;
+  height: auto;
+  margin-right: 10%;
+}
+.book{
+  max-width: 100%;
+  height: auto;
+ 
+}
+.dashboard-h6{
+  font-size: 0.9rem;
+}
+
 @media screen and (min-width: 1200px) {
   .Home-3-flex{margin: 15px;
   display: flex;
@@ -328,6 +336,9 @@ td{
   }
 }
 @media screen and (max-width: 730px) {
+  
+
+
 .Home-1,.AboutUs-2,.Footer,.Store,.View{
   display: flex;
   flex-direction: column;
@@ -339,7 +350,28 @@ td{
 .vision,.mission{
   padding: 10px 0px 10px 100px;
 }
+.dashboard-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dash-item{
+  width: 30vw;
+}
+.dashboard-h6{
+  font-size: 0.7rem;
+}
 
+.form-addbook{
+  overflow: scroll;
+}
+.form-label{
+  font-size: 0.7rem;
+}
+option{
+  font-size: 0.7rem;
+}
 }
 @media screen and (max-width: 1270px) {
  .ContactUs{
@@ -356,16 +388,15 @@ td{
   }
   
  }
-
-
-.chart{
-  width: 60vw;
-  margin: 15px;
-  padding:10px;
+ .chart{
+  width: 80vw;
+  margin: 10px;
   background-color: rgb(248, 237, 237);
   border-radius: 20px;
   box-shadow: 3px 3px grey;
-}
+  font-size: 0.7rem;
+  }
+
 
 
 
@@ -378,6 +409,10 @@ td{
 .main-icon,.icon{
   font-size: 1.7rem;
   display: inline-block;
+}
+.icon{
+  color: white;
+  
 }
 
 .item-submenu.active{
@@ -407,7 +442,7 @@ td{
   color: orange;
 }
 .logout{
-background-color: white;
+
   margin:10px;
   padding: 10px 15px 10px 15px;
   color: black;
