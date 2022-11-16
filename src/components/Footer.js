@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import image24 from 'C:/Users/Aishwarya/myraysapp/src/images/image24.png';
 import image25 from 'C:/Users/Aishwarya/myraysapp/src/images/image25.png';
 import image26 from 'C:/Users/Aishwarya/myraysapp/src/images/image26.png';
 import image27 from 'C:/Users/Aishwarya/myraysapp/src/images/image27.png';

@@ -13,7 +13,7 @@ const AboutUs = () => {
         <Intro/>
             <div className="Home-1 d-flex p-5">
                 <div className="col-md-6 pt-5">
-                    <img src={image2} className="image2" alt="Image not found" />
+                    <img src={image2} className="image2" alt="Image not found"/>
                 </div>
                 <div className="col-md-6 ">
                     <h1 className="pt-2 red">MY RAYS</h1>
