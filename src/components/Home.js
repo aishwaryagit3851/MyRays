@@ -3,7 +3,7 @@ import Intro from './Intro';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import {Link} from "react-router-dom";
-import image2 from 'C:/Users/Aishwarya/myraysapp/src/images/image2.jpg';
+//import image2 from 'C:/Users/Aishwarya/myraysapp/src/images/image2.jpg';
 import image3 from 'C:/Users/Aishwarya/myraysapp/src/images/image3.jpg';
 import image4 from 'C:/Users/Aishwarya/myraysapp/src/images/image4.jpg';
 import image5 from 'C:/Users/Aishwarya/myraysapp/src/images/image5.jpg';
@@ -25,7 +25,7 @@ const Home = () => {
         <Intro/>
             <div className="Home-1 d-flex p-5">
                 <div className="col-md-6 pt-5">
-                    <img src={image2} className="image2" alt="not found"/>
+                   {/*} <img src={image2} className="image2" alt="not found"/>*/}
                 </div>
                 <div className="col-md-6 ">
                     <h1 className="pt-2 red">MY RAYS</h1>
