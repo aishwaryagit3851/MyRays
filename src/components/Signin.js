@@ -37,7 +37,7 @@ const Signin = () => {
                 <label htmlFor="exampleInputPassword1" className="form-label"><h4 style={{ textAlign: "left" }}>Password</h4></label>
                 <input type="password" className="form-control" id="exampleInputPassword1" placeholder="8+ characters , 1 Capital letter" />
               </div>
-              <div style={{ textAlign: "right", color: "blue" }}><a href="/forgotpassword">Forgot Password</a></div>
+              <div style={{ textAlign: "right", color: "blue" }}><Link to="/forgotpassword">Forgot Password</Link></div>
               <Link to="/sidebar2"><button className="btn px-5 py-3 my-4">SignIn</button></Link>
             </form>
           </div>

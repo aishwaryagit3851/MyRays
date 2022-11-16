@@ -13,7 +13,7 @@ const Intro = () => {
     <Link to="/signin"><button className="btn mt-3 px-5 py-3">START PUBLISHING</button></Link>
   </div>
   <div className="col-md-6">
-    <img src={image1} className="image1"/>
+    <img src={image1} className="image1" alt="Image not found"/>
   </div>
   </div>
   </>

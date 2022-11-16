@@ -28,7 +28,7 @@ const AboutUs = () => {
                 <h2 className="py-5">OUR VISION</h2>
                 <div className="d-flex AboutUs-2 p-4">
                     <div className="col-md-3 vision">
-                        <img src={image19} className="image19"/>
+                        <img src={image19} className="image19" alt="Image not found"/>
                     </div>
                     <div className="col-md-9">
                         <h3 className="pt-5" style={{ color: 'white', lineHeight: 2.3 }}>"TO TRANSFORM ELIGIBLE POTENTIALS INTO WORLD-CLASS WRITERS TO SUSTAIN THE UNIVERSE."</h3>
@@ -42,7 +42,7 @@ const AboutUs = () => {
                         <h3 className="pt-5" style={{ color: 'white', lineHeight: 2.3 }}>“ TOBOOK WRITING AND PUBLICATION CAMPAIGN  ”</h3>
                     </div>
                     <div className="col-md-3 mission">
-                        <img src={image20} className="image20"/>
+                        <img src={image20} className="image20" alt="Image not found"/>
                     </div>
 
                 </div>
