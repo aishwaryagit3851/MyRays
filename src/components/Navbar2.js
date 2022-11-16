@@ -21,7 +21,7 @@ function Navbar() {
       </div>
       <nav ref={navRef}>
         <a className="nav-link pl-5 pr-3 icon2" href="/navbar2"><FaBell /></a>
-        <a className="nav-link px-4 " href="/navbar2"><img src={profile} style={{ height: 25, width: 25 }} className="nav2-img" alt="not found"/></a>
+        {/*<a className="nav-link px-4 " href="/navbar2"><img src={profile} style={{ height: 25, width: 25 }} className="nav2-img" alt="not found"/></a>*/}
         <a className="nav-link px-3" href="/navbar2"><h3>Sachi</h3></a>
         <button
           className="nav-btn nav-close-btn"
