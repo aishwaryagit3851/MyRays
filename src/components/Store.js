@@ -3,9 +3,9 @@ import Intro from './Intro';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import {Link} from "react-router-dom";
-import image16 from 'C:/Users/Aishwarya/myraysapp/src/images/image16';
-import image17 from 'C:/Users/Aishwarya/myraysapp/src/images/image17';
-import image18 from 'C:/Users/Aishwarya/myraysapp/src/images/image18';
+import image16 from 'C:/Users/Aishwarya/myraysapp/src/images/image16.jpg';
+import image17 from 'C:/Users/Aishwarya/myraysapp/src/images/image17.jpg';
+import image18 from 'C:/Users/Aishwarya/myraysapp/src/images/image18.jpg';
 const Store = () => {
 
     return (

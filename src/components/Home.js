@@ -3,20 +3,20 @@ import Intro from './Intro';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import {Link} from "react-router-dom";
-import image2 from 'C:/Users/Aishwarya/myraysapp/src/images/image2';
-import image3 from 'C:/Users/Aishwarya/myraysapp/src/images/image3';
-import image4 from 'C:/Users/Aishwarya/myraysapp/src/images/image4';
-import image5 from 'C:/Users/Aishwarya/myraysapp/src/images/image5';
-import image6 from 'C:/Users/Aishwarya/myraysapp/src/images/image6';
-import image7 from 'C:/Users/Aishwarya/myraysapp/src/images/image7';
-import image8 from 'C:/Users/Aishwarya/myraysapp/src/images/image8';
-import image9 from 'C:/Users/Aishwarya/myraysapp/src/images/image9';
-import image10 from 'C:/Users/Aishwarya/myraysapp/src/images/image10';
-import image11 from 'C:/Users/Aishwarya/myraysapp/src/images/image11';
-import image12 from 'C:/Users/Aishwarya/myraysapp/src/images/image12';
-import image13 from 'C:/Users/Aishwarya/myraysapp/src/images/image13';
-import image14 from 'C:/Users/Aishwarya/myraysapp/src/images/image14';
-import image15 from 'C:/Users/Aishwarya/myraysapp/src/images/image15';
+import image2 from 'C:/Users/Aishwarya/myraysapp/src/images/image2.jpg';
+import image3 from 'C:/Users/Aishwarya/myraysapp/src/images/image3.jpg';
+import image4 from 'C:/Users/Aishwarya/myraysapp/src/images/image4.jpg';
+import image5 from 'C:/Users/Aishwarya/myraysapp/src/images/image5.jpg';
+import image6 from 'C:/Users/Aishwarya/myraysapp/src/images/image6.jpg';
+import image7 from 'C:/Users/Aishwarya/myraysapp/src/images/image7.jpg';
+import image8 from 'C:/Users/Aishwarya/myraysapp/src/images/image8.jpg';
+import image9 from 'C:/Users/Aishwarya/myraysapp/src/images/image9.jpg';
+import image10 from 'C:/Users/Aishwarya/myraysapp/src/images/image10.png';
+import image11 from 'C:/Users/Aishwarya/myraysapp/src/images/image11.jpg';
+import image12 from 'C:/Users/Aishwarya/myraysapp/src/images/image12.jpg';
+import image13 from 'C:/Users/Aishwarya/myraysapp/src/images/image13.jpg';
+import image14 from 'C:/Users/Aishwarya/myraysapp/src/images/image14.jpg';
+import image15 from 'C:/Users/Aishwarya/myraysapp/src/images/image15.jpg';
 
 const Home = () => {
     return (

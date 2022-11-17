@@ -1,7 +1,7 @@
 import { useRef ,useEffect} from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import {Link,useLocation}from "react-router-dom";
-import image24 from 'C:/Users/Aishwarya/myraysapp/src/images/image24';
+import image24 from 'C:/Users/Aishwarya/myraysapp/src/images/image24.png';
 
 function Navbar() {
 	const navRef = useRef();
