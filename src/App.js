@@ -33,19 +33,6 @@ function App() {
 
 
     < div className="App" >
-      {/* <BrowserRouter>
-        <Sidebar2>
-          <Routes>
-            <Route eaxct path="/" element={<Dashboard />} />
-            <Route exact path="/dashboard" element={<Dashboard />} />
-            <Route exact path="/bookstore/addbook" element={<AddBook />} />
-            <Route exact path="/bookstore/viewbook" element={<ViewBook />} />
-            <Route exact path="/enquiry" element={<Enquiry />} />
-
-          </Routes>
-        </Sidebar2>
-      </BrowserRouter> */}
-
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />

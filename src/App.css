@@ -313,9 +313,6 @@ td{
   height: auto;
  
 }
-.dashboard-h6{
-  font-size: 0.9rem;
-}
 
 @media screen and (min-width: 1200px) {
   .Home-3-flex{margin: 15px;
@@ -493,7 +490,7 @@ header .nav-btn {
 	color: var(--textColor);
 	visibility: hidden;
 	opacity: 0;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 }
 
 header div,
@@ -531,9 +528,9 @@ nav {
 	header nav {
 		position: fixed;
 		top: 0;
-		right: 0;
+		right: 1;
 		height: 30%;
-		width: 40%;
+		width: 35%;
     background-color:rgb(215, 157, 115) ;
     display: flex;
 		flex-direction: column;

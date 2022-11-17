@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-
 import BarChart from './BarChart';
 import {UserData} from './Data';
 const Dashboard = () => {
