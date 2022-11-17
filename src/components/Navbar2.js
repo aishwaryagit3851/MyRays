@@ -15,13 +15,13 @@ function Navbar() {
   return (
     <header>
       <div className="nav-itmes-1 nav-2">
-        <a className="nav-link active navbar-brand" aria-current="page" href="/navbar2"><h4>My Rays Book Publication Center</h4></a>
+        <a className="nav-link active navbar-brand" aria-current="page" href="/sidebar2"><h4 className="sidebar2-text">My Rays Book Publication Center</h4></a>
         <p className="navbar-brand">Pune</p>
       </div>
       <nav ref={navRef}>
-        <a className="nav-link pl-5 pr-3 icon2" href="/navbar2"><FaBell /></a>
+        <a className="nav-link pl-5 pr-3 icon2" href="/sidebar2"><FaBell /></a>
         {/*<a className="nav-link px-4 " href="/navbar2"><img src={profile} style={{ height: 25, width: 25 }} className="nav2-img" alt="not found"/></a>*/}
-        <a className="nav-link px-3" href="/navbar2"><h3>Sachi</h3></a>
+        <a className="nav-link px-3" href="/sidebar2"><h3>Sachi</h3></a>
         <button
           className="nav-btn nav-close-btn"
           onClick={showNavbar}>

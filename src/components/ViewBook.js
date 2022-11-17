@@ -6,9 +6,9 @@ const ViewBook = () => {
   return (
   <>
 
-  <div className="ViewBook">
+  <div className="ViewBook"  >
     <h1 className="red p-3">View Book</h1>
-    <div className="overflow-x:auto;">
+    <div>
     <table className="table-1">
       <tr className="heading">
       <th className="th-1">Sr No</th>
