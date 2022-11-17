@@ -11,13 +11,9 @@
   padding:0% 15% 0% 15%;
  
 }
-.nav-right{
-  position: absolute;
-  right: 0%;
-  top: 0;
-}
+
 .nav-link{
-  font-size: 20px;
+  font-size: 15px;
 }
 .image1{
   height: 350px;
@@ -331,7 +327,7 @@ td{
     height: auto;
   }
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 900px) {
   .Home-3-flex{
 margin: auto;
     display: flex;
@@ -339,11 +335,14 @@ margin: auto;
    align-items: center;
     }
 }
-.Home-3-flex{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 20px;
+@media screen and (min-width: 900px) {
+  .Home-3-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+  }
+  
 }
 
 @media screen and (max-width: 730px) {
@@ -492,7 +491,7 @@ header {
   flex-direction: column;
 }
 nav a {
-	margin: 0 1rem;
+	margin: 0% 7% 0% 7%;
 	color: var(--textColor);
 	text-decoration: none;
 }
@@ -502,7 +501,7 @@ nav a:hover {
 }
 
 header .nav-btn {
-	padding: 5px;
+	padding: 3px;
 	cursor: pointer;
 	background: transparent;
 	border: none;
@@ -510,7 +509,7 @@ header .nav-btn {
 	color: var(--textColor);
 	visibility: hidden;
 	opacity: 0;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 header div,
@@ -522,7 +521,62 @@ nav {
   font-size: 1rem;
 }
 
+@media screen and (max-width: 880px) {
+  header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+  .icon2{
+    font-size: 2rem;
+  }
 
+	header nav {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 43%;
+		width: 35%;
+    background-color:rgb(215, 157, 115) ;
+    display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1rem;
+		transition: 1s;
+		transform: translateY(-50vh);
+	}
+
+
+	header .responsive_nav {
+    padding-top: 20px;
+		transform: none;
+  
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+	}
+  .nav-link p{
+    font-size: 1px;
+    color: grey;
+  }
+  .nav-link.active p{
+    color: black;
+    font-size: 0.2rem;
+  }
+
+ }
+ .nav-link.active p{
+  color: black;
+  font-size: 1.5rem;
+}
+ 
+ .nav-link p {
+  color: grey;
+  font-size:1.3rem;
+}
 @media only screen and (max-width: 1024px) {
   .image11,.image12,.image13,.image14{
     height: 50px;
@@ -537,49 +591,6 @@ nav {
     align-items: center;
     justify-content: center;
   }
-	header .nav-btn {
-		visibility: visible;
-		opacity: 1;
-	}
-  .icon2{
-    font-size: 2rem;
-  }
-
-	header nav {
-		position: absolute;
-		top: 0;
-		right: 0;
-		height: 30%;
-		width: 35%;
-    background-color:rgb(215, 157, 115) ;
-    display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 1.5rem;
-		transition: 1s;
-		transform: translateY(-50vh);
-	}
-
-
-	header .responsive_nav {
-		transform: none;
-	}
-
-	nav .nav-close-btn {
-		position: absolute;
-		top: 2rem;
-		right: 2rem;
-	}
-
-	nav a {
-		font-size: 1rem;
-	}
+	
 }
-.nav-link p{
-  font-size: 20px;
-  color: grey;
-}
-.nav-link.active p{
-  color: black;
-}
+
