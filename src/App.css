@@ -108,6 +108,7 @@ background-color: white;
   height: 500px;
   width: 100%;
 }
+
 .ContactUs-1{
   display: flex;
   flex-direction: column;
@@ -288,6 +289,9 @@ margin: 5px 30px 30px 30px ;
   background-color: peachpuff;
  
 }
+.intro-heading{
+  font-size: 1.7rem;
+}
 .th-1{
   padding: 10px 20px 10px 20px;
   border-right: 1px solid black;
@@ -303,35 +307,45 @@ td{
   height: 5vh;
   width: 5vw;
 }
-.book-image{
-  width: 40%;
-  height: auto;
-  margin-right: 10%;
+.book-text{
+  font-size: 0.9rem;
 }
-.book{
-  max-width: 100%;
-  height: auto;
- 
+.footer-text{
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 400px) {
+ .image15{
+  width: 150px;
+ }
 }
 
-@media screen and (min-width: 1200px) {
-  .Home-3-flex{margin: 15px;
-  display: flex;
- flex-direction: row;
-}}
-
-
-@media screen and (max-width: 1200px) {
-  .Home-3-flex{margin: 15px;
-  display: flex;
- flex-direction: column;
+@media screen and (max-width: 450px) {
+  .books{
+    width: 150px;
+    height: auto;
   }
 }
-@media screen and (max-width: 1200px) and (min-width: 730px) {
+@media screen and (max-width: 250px) {
+  .books{
+    width: 100px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 630px) {
   .Home-3-flex{
-    align-items: center;
-  }
+margin: auto;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+    }
 }
+.Home-3-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+
 @media screen and (max-width: 730px) {
   
 
@@ -370,6 +384,12 @@ option{
   font-size: 0.7rem;
 }
 }
+@media screen and (max-width: 350px) {
+  .image6{
+   width: 200px;
+   height: auto;
+  }
+ }
 @media screen and (max-width: 1270px) {
  .ContactUs{
   display: flex;
@@ -490,7 +510,7 @@ header .nav-btn {
 	color: var(--textColor);
 	visibility: hidden;
 	opacity: 0;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 
 header div,
@@ -526,9 +546,9 @@ nav {
   }
 
 	header nav {
-		position: fixed;
+		position: absolute;
 		top: 0;
-		right: 1;
+		right: 0;
 		height: 30%;
 		width: 35%;
     background-color:rgb(215, 157, 115) ;
