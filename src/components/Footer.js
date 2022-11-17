@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import image25 from 'C:/Users/Aishwarya/myraysapp/src/images/image25.png';
-import image26 from 'C:/Users/Aishwarya/myraysapp/src/images/image26.png';
-import image27 from 'C:/Users/Aishwarya/myraysapp/src/images/image27.png';
-import image28 from 'C:/Users/Aishwarya/myraysapp/src/images/image28.png';
+import image25 from 'C:/Users/Aishwarya/myraysapp/src/images/image25';
+import image26 from 'C:/Users/Aishwarya/myraysapp/src/images/image26';
+import image27 from 'C:/Users/Aishwarya/myraysapp/src/images/image27';
+import image28 from 'C:/Users/Aishwarya/myraysapp/src/images/image28';
 const Footer = () => {
 
     return (

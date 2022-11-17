@@ -2,7 +2,7 @@ import React from 'react';
 import Intro from './Intro';
 import Footer from './Footer';
 import Navbar from './Navbar';
-import image16 from 'C:/Users/Aishwarya/myraysapp/src/images/image16.jpg';
+import image16 from 'C:/Users/Aishwarya/myraysapp/src/images/image16';
 const View = () => {
 
     return (

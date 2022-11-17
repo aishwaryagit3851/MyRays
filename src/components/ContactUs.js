@@ -2,9 +2,9 @@ import React from 'react';
 import Intro from './Intro';
 import Footer from './Footer';
 import Navbar from './Navbar';
-import image21 from 'C:/Users/Aishwarya/myraysapp/src/images/image21.png';
-import image22 from 'C:/Users/Aishwarya/myraysapp/src/images/image22.png';
-import image23 from 'C:/Users/Aishwarya/myraysapp/src/images/image23.png';
+import image21 from 'C:/Users/Aishwarya/myraysapp/src/images/image21';
+import image22 from 'C:/Users/Aishwarya/myraysapp/src/images/image22';
+import image23 from 'C:/Users/Aishwarya/myraysapp/src/images/image23';
 const ContactUs = () => {
 
     return (
